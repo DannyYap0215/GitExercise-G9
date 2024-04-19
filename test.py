@@ -1,8 +1,9 @@
 x = 10
 y = input("Enter A number")
+g = 200
 
 def calculator(event= None):
-    z = x + y
+    z = x + y + g
     return z
 
 calculator()
